@@ -1,0 +1,7 @@
+<Response>
+  <!-- InboundXML inicial -->
+  <Gather method="GET" numDigits="1" finishOnKey="#" action="http://tufileserver/InboundXML/BaseRedirect.xml">
+  	<Say voice="woman" language="es-us">Presiona UNO para dejar un mensaje, DOS para Iniciar una conferencia, TRES para escuchar un anuncio, CERO para hablar con un agente, CUATRO para repetir el menu.</Say>  
+  </Gather>
+  <Say voice="woman" language="es-us">Hasta luego</Say> 
+</Response>

@@ -1,0 +1,6 @@
+<Response>
+    <!-- Opcion cero, hablar con un agente -->
+    <Say voice="woman" language="es-us">Su llamada esta siendo transferida y podra ser grabada</Say>
+    <Record background="true" playBeep="true" finishOnKey="#"/>
+    <Dial>+525512345678</Dial>
+</Response>
