@@ -1,4 +1,4 @@
 <Response>
     <!-- Opcion 4, regresar al menu principal -->
-    <Redirect method="GET">http://tufileserver/InboundXML/main.xml</Redirect>
+    <Redirect method="GET">https://tranquil-beach-81366.herokuapp.com/InboundXML/main.xml</Redirect>
 </Response>
