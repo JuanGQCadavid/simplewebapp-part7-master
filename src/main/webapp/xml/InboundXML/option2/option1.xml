@@ -5,7 +5,7 @@
       <Conference startConferenceOnEnter="true" record="true" beep="true" hangupOnStar="true" maxParticipants="5" recordCallbackUrl="https://requestinspector.com/inspect/j0z.666">SecurityConference</Conference>
   </Dial>
   <!-- Fin del flujo -->
-  <Gather method="GET" numDigits="1" finishOnKey="#" action="https://tranquil-beach-81366.herokuapp.com/InboundXML/LastRedirect.xml">
+  <Gather method="GET" numDigits="1" finishOnKey="#" action="https://tranquil-beach-81366.herokuapp.com/xml/InboundXML/LastRedirect.xml">
     <Say voice="woman" language="es-us">Presiona UNO para volver al menu principal, Presiona DOS para terminar la llamada</Say>
   </Gather>
 </Response>

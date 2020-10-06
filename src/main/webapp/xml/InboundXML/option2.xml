@@ -1,6 +1,6 @@
 <Response>
   <!-- Opcion dos, Submenu de opciones de texto -->
-  <Gather method="GET" numDigits="1" finishOnKey="#" action="https://tranquil-beach-81366.herokuapp.com/InboundXML/option2/option2redirect.xml">
+  <Gather method="GET" numDigits="1" finishOnKey="#" action="https://tranquil-beach-81366.herokuapp.com/xml/InboundXML/option2/option2redirect.xml">
     <Say voice="woman" language="es-us">Presiona UNO para conferencia de seguridad, Presiona DOS para conferencia de si paz</Say>
   </Gather>
 </Response>
